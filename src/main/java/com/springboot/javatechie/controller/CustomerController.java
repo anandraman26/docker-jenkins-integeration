@@ -11,5 +11,10 @@ public class CustomerController {
 	public String getCustomer() {
 		return "hello";
 	}
+	
+	@GetMapping("/get")
+	public String getuCustomer() {
+		return "hello get";
+	}
 
 }
